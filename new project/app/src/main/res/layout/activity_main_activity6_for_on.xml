@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kashab"
+    android:orientation="vertical"
+    tools:context=".MainActivity6_for_on">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="424dp"
+        android:layout_height="245dp"
+        app:srcCompat="@drawable/machboos_on" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="174dp"
+            android:layout_height="157dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="74dp"
+            android:background="#77000000"
+            app:srcCompat="@drawable/youtube" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="237dp"
+            android:layout_height="157dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="142dp"
+            android:background="#77000000"
+            android:text="Go to youtube"
+            android:textAlignment="center"
+            android:textColor="#E6ECB1"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="-13dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#F8F8F8"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>
